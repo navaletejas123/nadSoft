@@ -5,8 +5,7 @@ import { useLocation, useNavigate } from 'react-router-dom';
 
 const Update_details = () => {
 
-    // const apikey = "49b6ce83752b47edbe3d801b23377e81";
-    const apikey = import.meta.env.VITE_API_KEY
+    const apikey = "f2ab1f906a1a45c6ac60e74defccb61f";
 
     const location = useLocation();
     const el = location.state
